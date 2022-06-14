@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  height: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.flex-it {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-it-space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-it-column {
+  flex-direction: column;
+}
+
+.flex-it-row {
+  flex-direction: row;
 }
